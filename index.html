@@ -5,10 +5,163 @@
     <meta name="viewport" content="width= device, initial=section=1.0" />
     <title>resumegit </title>
     <style>
+      *{
+        margin :0px;
+        padding: 0px;
+      }
+      body{
+        font-family: Arial, sans-serif;
+        background-color: #f2f2f2;
+        display: flex;
+        flex-direction: column;
+        height: 100vh;
+        padding-top: 10px;
+        padding-left: 300px;
+        padding-right: 300px;
+      }
+      .section1{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px;
+        background-color: #6dbd17;
+      }
+      .profile-data{
+       margin-right:300px ;
+      }
+      .section2{
+        display: flex;
+        flex-direction: column;
+        padding: 20px;
+        background-color: #f5f5f5;
+        margin: 2px solid #110d0d;
+      }
+      .section3{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding: 20px;
+        background-color: #f5f5f5;
+        margin: 2px solid;
+      }
+      .section4{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding: 20px;
+        background-color: #f5f5f5;
+        
+      }
+      .section5{
+        padding: 20px;
+      } 
+      .profile-img{
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
 
+      }
+      .profile-img-section{
+        margin-left: 100px;
+        width: 200px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .section-tittle{
+          justify-content: start; 
+          display: flex;
+          align-items: center;
+          font-size: 20px;
+          margin-left: 20px;
+          font-weight: bold;
+
+      }
+      td,th{
+        height: 2%;
+        width: 2%;
+        border: 1px solid #141111;
+      }
+      table{
+        border-collapse: collapse;
+        width: 100%;
+       text-align: center;
+      }
+      .list-order{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-left: 50px;
+        margin-top: 10px;
+      }
     </style>
 </head>
 <body>
+  <div class="section1">
+    <div class="profile-img-section">
+      <img src="assets/img/photo-1548091688-de2dfc08c95b.avif" alt="" class=" profile-img">
+    </div>
+  <div class="profile-data">
+   <h1>Paveen karthik S</h1>
+   <h3>paveensenthil15@gmail.com</h3>
+  </div>
+  </div>
+  <div class="section2">
+    <h1 class="section-tittle">objectives:
+    </h1>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa eos architecto autem? Magni qui veniam accusamus ab ullam cumque quibusdam quisquam dolorum blanditiis? Commodi laboriosam, obcaecati quas alias hic beatae rem odit incidunt optio et? Earum et dolore quia ab id debitis, aspernatur provident in, velit enim dignissimos voluptatibus sed?
+    </p>
+  </div>
+  <div class="section3">
+    <h1 class="section-tittle">Education:
+    </h1>
+      <table class="ed-table">
+        <tr>
+          <th>Degree</th>
+          <th>Institution</th>
+          <th>Year</th>
+        </tr>
+        <tr>
+          <td>Bachelor of Technology</td>
+          <td>XYZ University</td>
+          <td>2015-2019</td>
+        </tr>
+        <tr>
+          <td>Master of Computer Science</td>
+          <td>XYZ University</td>
+          <td>2020-2023</td>
+        </tr>
+        <tr></tr>
+          <td>PhD in Computer Science</td>
+          <td>XYZ University</td>
+          <td>2024-Present</td>
+        </tr>
+      </table>
+  </div>
+  <div class="section4">
+    <h1 class="section-tittle">Internships:
+    </h1>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa eos architecto autem? Magni qui veniam accusamus ab ullam cumque quibusdam quisquam dolorum blanditiis? Commodi laboriosam, obcaecati quas alias hic beatae rem odit incidunt optio et? Earum et dolore quia ab id debitis, aspernatur provident in, velit enim dignissimos voluptatibus sed?
 
+    </p>
+    <br>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa eos architecto autem? Magni qui veniam accusamus ab ullam cumque quibusdam quisquam dolorum blanditiis? Commodi laboriosam, obcaecati quas alias hic beatae rem odit incidunt optio et? Earum et dolore quia ab id debitis, aspernatur provident in, velit enim dignissimos voluptatibus sed?
+    </p>
+  </div>
+  <div class="section5">
+    <h1 class="section-tittle">skillss
+    </h1>
+    <ul class="list-order">
+      <li>Java</li>
+      <li>Python</li>
+      <li>JavaScript</li>
+      <li>React</li>
+      <li>Node.js</li>
+      <li>HTML</li>
+    </ul>
+  </div>
 </body>
 </html>
